@@ -1,4 +1,5 @@
 'use strict';
+require('dns').setDefaultResultOrder('ipv4first');
 
 module.exports = {
   /**
